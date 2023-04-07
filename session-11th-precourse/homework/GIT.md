@@ -1,7 +1,7 @@
-# git을 잘써보자!
-git checkout 브랜치명
-git branch 브랜치명
-git push origin 내가만든브랜치
+# git을 잘써보자!  
+git checkout 브랜치명  
+git branch 브랜치명  
+git push origin 내가만든브랜치  
 
 git status
 
