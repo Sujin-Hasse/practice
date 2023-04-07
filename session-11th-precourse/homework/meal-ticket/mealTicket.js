@@ -74,20 +74,30 @@ const PEOPLE_INFOS = [
   },
   {
     name: '대학원생',
-    type: 'studnet',
+    type: 'student',
     food: '짬뽕',
   },
 ];
-
-// 식권 종이를 출력합니다. 식권 종이에는 이름과 금액이 있어야합니다.
+/*메뉴 정보와 구성원 정보를 정보로 줄 때 식권 금액을 출력하는 함수를 만들어야한다.
+  만약 구성원 타입이 PEOPLE_TYPE과 맞지 않는다면 '찾았다 요놈!'을 출력해야한다.
+  만약 음식이 FOODS_PRICE에 없다면 '그런거 안팔아요'를 출력해야한다. */
+// 식권 종이를 출력합니다. 식권 종이에는 이름과 금액이 있어야합니다. = 명단에 있는 사람이면 식권주고 아님 짤
 const getTicket = (peopleName, type, food) => {
   // 코드 작성
   // return {name: 이름, price: 내야하는 금액}
   // return '찾았다 요놈!'
   // return '그런거 안팔아요'
+
+  if(type  )
+
+  for(let price in FOODS_PRICE){
+    console.log(`${price}:${FOODS_PRICE[price]}`);
+  }
+
+  } 
 };
 
-// 식권 지불 금액을 계산하는 함수를 완성하세요
+// 식권 지불 금액을 계산하는 함수를 완성하세요 = 부가세 계산해라
 const getTickets = (ticketInfos) => {
   // getTicket 함수를 이용해 PEOPLE_INFOS가 내야하는 식권 정보를 알아내세요
 };
