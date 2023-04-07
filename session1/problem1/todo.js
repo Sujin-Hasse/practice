@@ -99,3 +99,8 @@ const test = () => {
 };
 
 test();
+<<<<<<< HEAD
+=======
+// practice_git_branch1
+// Window
+>>>>>>> branch1
