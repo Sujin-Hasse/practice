@@ -96,3 +96,5 @@ const init = () => {
 };
 
 document.addEventListener('DOMContentLoaded', init);
+
+//save, logout 로직 과제
