@@ -33,8 +33,6 @@ const readTodo = () => {
   const completeEl = document.createElement('input');
   const userEl = document.createElement('p');
   const deleteEl = document.createElement('button');
-  
-  const 
 
   divEl.className = 'todoItem';
 
@@ -56,7 +54,7 @@ const readTodo = () => {
 
   userEl.textContent = todo.user; // 여기까지 todo 박스
 
-  divEl.append(completeEl, contentEl, userEl, deleteEl);
+  divEl.append(completeEl,contentEl, userEl, deleteEl);
   todoContainerEl.append(divEl);
  });
 };
